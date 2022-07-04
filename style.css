@@ -1,0 +1,153 @@
+* {
+margin: 0rem;
+padding: 0rem;
+font-family: cursive;
+font-size: 16px;
+}
+
+.wrapper {
+    width: 1080px;
+    margin: auto;
+}
+
+.navBar {
+    background-color: #9fc5f8;
+}
+
+.navBarWidth {
+    width: 1080px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.cities {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+
+.main {
+display: flex;
+flex-direction: column;
+}
+
+.upperMain {
+    border-bottom: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .25rem 0rem;
+    align-items: center;
+}
+
+.sanJose {
+    font-size: 2rem;
+    justify-content: flex-start;
+    font-weight: 400;
+}
+
+.daysWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.day {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    margin: .75rem .75rem .75rem .75rem;
+    padding: 1rem;
+    width: 9rem;
+    justify-content: center;
+}
+
+.forecastImg {
+    width: 8rem;
+    border-radius: 80px;
+    margin: .25rem .25rem .5rem .25rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: .25rem;
+    text-align: center;
+}
+
+.forecast {
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    font-size: 1.25rem;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+
+.temps {
+    display: flex;
+    flex-direction: row;
+    margin: .25rem 0rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.high {
+    color: red;
+    padding-right: 1.25rem;
+}
+
+.low {
+    font-style: bold;
+    color: blue;
+}
+
+.highTemp, .highTemp1, .lowTemp1, .lowTemp {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-style: bold;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    background-color: #eeeeee;
+    padding: .5rem;
+}
+
+.cookieImg {
+    width: 3rem;
+    padding: 1rem;
+    padding-right: 1.5rem;
+}
+
+
+.cookietext {
+    padding: .5rem;
+}
+
+.button {
+    background-color: #9fc5f8;
+    margin: 1.25rem;
+    width: 8rem;
+    box-shadow: 2px 2px  black;
+}

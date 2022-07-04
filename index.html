@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>DojoWeather</title>
+</head>
+<body>
+    <div class="navBar">
+        <div class="navBarWidth">
+            <h1>DojoWeather</h1>
+            <ul class="cities">
+                <li onclick="burbank()">Burbank</li>
+                <li onclick="chicago()">Chicago</li>
+                <li onclick="dallas()">Dallas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="main">
+            <div class="upperMain">
+                <div class="sanJose">San Jose</div>
+                <div class="tempControls">
+                    <form>
+                        <label for="temperature">show temperature in</label>
+                        <select onChange="changeTempCalc(this)" name="temperature" id="degreeMeasure">
+                            <option value="celsius">&#8451;</option>
+                            <option value="fahrenheit">&#8457;</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="daysWrapper">
+                <div class="day">
+                    <h2>Today</h2>
+                    <img class="forecastImg" src="images/some_rain.png" alt="some rain">
+                    <div class="forecast">
+                        <div class="desc">some rain</div>
+                        <div class="temps">
+                            <div class="high">
+                                <span class="highTemp">24</span>
+                                <span class="highTemp1">&#0176;</span>
+                            </div>
+                            <div class="low">
+                                <span class="lowTemp">18</span>
+                                <span class="lowTemp1">&#0176;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day">
+                    <h2>Tomorrow</h2>
+                    <img class="forecastImg" src="images/some_sun.png" alt="some sun">
+                    <div class="forecast">
+                        <div class="desc">some sun</div>
+                        <div class="temps">
+                            <div class="high">
+                                <span class="highTemp">27</span>
+                                <span class="highTemp1">&#0176;</span>
+                            </div>
+                            <div class="low">
+                                <span class="lowTemp">19</span>
+                                <span class="lowTemp1">&#0176;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day">
+                    <h2>Friday</h2>
+                    <img class="forecastImg" src="images/some_clouds.png" alt="some clouds">
+                    <div class="forecast">
+                        <div class="desc">some clouds</div>
+                        <div class="temps">
+                            <div class="high">
+                                <span class="highTemp">21</span>
+                                <span class="highTemp1">&#0176;</span>
+                            </div>
+                            <div class="low">
+                                <span class="lowTemp">16</span>
+                                <span class="lowTemp1">&#0176;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day">
+                    <h2>Saturday</h2>
+                    <img class="forecastImg" src="images/some_sun.png" alt="some sun">
+                    <div class="forecast">
+                        <div class="desc">some sun</div>
+                        <div class="temps">
+                            <div class="high">
+                                <span class="highTemp">26</span>
+                                <span class="highTemp1">&#0176;</span>
+                            </div>
+                            <div class="low">
+                                <span class="lowTemp">21</span>
+                                <span class="lowTemp1">&#0176;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <img class="cookieImg" src="images/cookie.png" alt="cookie">
+                <div class="cookietext">
+                    <h3>Stop! Cookie Time</h3>
+                    <div class="cookiedesc">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></div>
+                </div>
+                <button onclick="acceptCookie()" class="button" type="button">I Accept</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
